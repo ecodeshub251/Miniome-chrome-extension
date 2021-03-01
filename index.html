@@ -14,7 +14,7 @@
         <div class="logo">
             <img src="src/img/google_logo.svg" alt="" srcset="">
         </div>
-        <input class="search-input" placeholder="Google Search" type="text">
+        <input class="search-input" autocomplete="no" placeholder="Google Search" type="text">
     </div>
     <div class="container">
         <h2 class="greeting">Good Evening <span class="username">Aamir</span></h2>
@@ -34,16 +34,18 @@
             <a target="_blank" href=""><img class="icon linkedin" src="src/img/linkedin.svg" alt=""></a>
         </div>
 
-        <!-- <div class="todo-container">
+        <div class="todo-container">
             <h2>Todo</h2>
-            <form>
-                <input type="text" class="search-input" placeholder="Enter Task">
+            <form class="todo-form">
+                <input autocomplete="off" type="text" id="task" name="task" class="search-input"
+                    placeholder="Enter Task">
             </form>
+            <!-- <p class="todo">Aamir</p> -->
         </div>
-    </div> -->
+    </div>
 
 
-        <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
