@@ -1,0 +1,88 @@
+body {
+    background: url('src/img/bg-1.jpg');
+    background-size: cover;
+}
+
+.logo img {
+    max-width: 25px;
+    filter: opacity(0.5);
+}
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-input {
+    background: none;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #989898 ;
+}
+.search-input:focus {
+    border-bottom: 1px solid white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    position: absolute;
+    max-width: 40px;
+    transition: all ease-in 0.3s;
+}
+.main-icon {
+    position: absolute;
+    max-width: 75px;
+    transform: translate(20px, 20px);
+}
+.main-icon:hover {
+    cursor: pointer;
+}
+
+.icon-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.discord {
+    transform: translateY(-100px);
+}
+.instagram {
+    transform: translate(-70px, 70px);
+}
+.twitter {
+    transform: translate(-70px, -70px);
+}
+.facebook {
+    transform: translate(-100px);
+}
+.youtube {
+    transform: translate(70px,70px);
+}
+.linkedin {
+    transform: translateY(100px);
+}
+.pinterest {
+    transform: translate(70px, -70px);
+}
+.gmail {
+    transform: translateX(100px);
+}
+.main-icon {
+    fill: red;
+}
+.invisible {
+    opacity: 0;
+    z-index: -1000;
+}
+h2{
+    margin: 0;
+}
